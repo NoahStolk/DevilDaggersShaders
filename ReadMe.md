@@ -2,8 +2,13 @@
 
 ## Shader packs
 
-- Original: The original shaders extracted from the Devil Daggers resource files.
-- Optimized: The original shaders extracted from the Devil Daggers resource files, but with all of their redundancy removed (unused functions, parameters, commented code). All code is also correctly indented and symmetric.
+### Original
+
+The original shaders extracted from the Devil Daggers resource files.
+
+### Optimized
+
+The original shaders extracted from the Devil Daggers resource files, but with improved readability. All unused functions, parameters, and commented code has been removed. All code is also correctly indented and symmetric.
 
 ## Editing shaders
 
