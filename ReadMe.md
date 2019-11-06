@@ -8,7 +8,7 @@ The original shaders extracted from the Devil Daggers resource files.
 
 ### Optimized
 
-The original shaders extracted from the Devil Daggers resource files, but with improved readability. All unused functions, parameters, and commented code has been removed. All code is also correctly indented and symmetric.
+The original shaders extracted from the Devil Daggers resource files, but with improved readability. Unused functions, unused parameters, and commented code was removed. All code is also correctly indented and symmetric.
 
 ## Editing shaders
 
