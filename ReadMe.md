@@ -1,4 +1,4 @@
-# Devil Daggers Shaders
+# DevilDaggersShaders
 
 ## Shader packs
 
