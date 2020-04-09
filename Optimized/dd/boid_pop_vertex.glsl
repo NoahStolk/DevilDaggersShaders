@@ -21,7 +21,7 @@ void main()
 
 	float fresnel = 0.5 + 0.5 * dot(normalize(world_position.xyz - cam_position), normalize(v_normal));
 	fresnel = fresnel - erode * 2.333;
-	fresnel = fresnel > 1.0? -1.0:fresnel;
+	fresnel = fresnel > 1.0 ? -1.0 : fresnel;
 	gl_ClipDistance[0] = fresnel;
 
 	gl_Position = view_proj_matrix * world_position;

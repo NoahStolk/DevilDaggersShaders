@@ -39,7 +39,7 @@ void main()
 
 	float fresnel = 0.5 + 0.5 * dot(normalize(vert_view_vec), normalize(vert_normal));
 	fresnel = fresnel + user_matrix[3].z;
-	fresnel = fresnel > 1.0? -1.0:fresnel;
+	fresnel = fresnel > 1.0 ? -1.0 : fresnel;
 
 	gl_ClipDistance[0] = fresnel;
 	gl_ClipDistance[1] = -world_position.y + 0.1;

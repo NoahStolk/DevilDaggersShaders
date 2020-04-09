@@ -37,7 +37,7 @@ void main()
 	result0 = vert_colour * vert_colour * 0.5;
 
 	float fresnel = 0.5 + 0.5 * dot(normalize(vert_view_vec), normalize(vert_normal));
-	fresnel = fresnel > (1.0 - vert_uv0.y)? 1.0:0.0;
+	fresnel = fresnel > (1.0 - vert_uv0.y) ? 1.0 : 0.0;
 
 	result0 = mix(result0, vert_rim * vert_rim * 0.5, fresnel);
 
